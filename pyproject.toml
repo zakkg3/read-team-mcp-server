@@ -10,7 +10,7 @@ authors = [
     {name = "Red Team MCP", email = "redteam@example.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -32,6 +32,8 @@ dependencies = [
     "agno>=0.1.0",
     "ollama>=0.4.0",
     "sqlalchemy>=2.0.0",
+    "pymongo>=4.15.1",
+    "python-masscan>=1.0.0",
 ]
 
 [project.optional-dependencies]
